@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Narita Tria Almirah</title>
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan ke file CSS -->
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <div class="about-me">
+                <h1>Narita Tria Almirah</h1>
+                <h2>Tentang Saya</h2>
+                <p>Nama saya Narita Tria Almirah, seorang mahasiswa D4 Teknik Telekomunikasi di Politeknik Negeri Sriwijaya, dengan minat yang kuat dalam desain grafis dan komunikasi digital. Dengan pengalaman lebih dari satu tahun sebagai Ketua Divisi Desain Grafis dan Tata Letak di Warta Politeknik Sriwijaya,
+                    saya telah mengembangkan keahlian dalam pembuatan konten, storytelling visual, dan strategi media sosial.
+                    Tujuan saya adalah untuk terus berkembang di bidang pemasaran digital dan desain kreatif.</p>
+            </div>
+            <img src="assets\images\foto-gue.jpg" alt="Foto Profil Narita Tria Almirah" class="profile-pic">
+        </div>
+
+        <section id="skills" class="section">
+            <h2>Pengalaman</h2>
+            <ul>
+                <li>Ketua Divisi Desain grafis dan Layouter - Warta Politeknik Negeri Sriwijaya | 2023-2024</li>
+                <li>Creative Specialist - Fandiego Travel | Januari 2024 - Juli 2024</li>
+                <li>Assistant Project Team Leader Intern - PLN Icon Plus | Februari 2024 - Juli 2024</li>
+                <li>Volunteer Participant - Bawaslu Kota Palembang </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Proyek Terbaru</h2>
+            <ol>
+                <li>Web Agri-Tech (FINEST) : Platform Investasi untuk Budidaya Ikan</li>
+                <li>Desain Jaket Sekolah Volunteer Pengawas Bawaslu Kota Palembang</li>
+            
+            </ol>
+        </section>
+
+        <section id="media" class="section">
+            <h2>Media Saya</h2>
+            <div class="media-gallery">
+                <img src="assets/images/id-card.jpg" alt="Media 1" class="media-item">
+                <img src="assets/images/ig-wps.jpg" alt="Media 2" class="media-item">
+                <img src="assets/images/ig-fandiego.jpg" alt="Media 3" class="media-item">
+                <img src="assets/images/igs-fandiego.jpg" alt="Media 4" class="media-item">
+                <img src="assets/images/jaket-svp.jpg" alt="Media 5" class="media-item">
+                <img src="assets/images/foto-magang.jpg" alt="Media 6" class="media-item">
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Kontak Saya</h2>
+            <p>Ingin tahu lebih lanjut tentang saya atau berdiskusi soal kerja sama? Hubungi saya melalui LinkedIn atau Instagram!</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/naritatria" target="_blank">LinkedIn</a>
+                <a href="https://instagram.com/naryourbae" target="_blank">Instagram</a>
+            </div>
+            <button id="greetButton" class="btn-custom">Ucapkan Halo!</button>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Narita Tria Almirah. Semua hak dilindungi.
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const greetButton = document.getElementById('greetButton');
+            greetButton.addEventListener('click', function() {
+                alert('Terima kasih telah mengunjungi portofolio saya!');
+            });
+        });
+    </script>
+</body>
+</html>
